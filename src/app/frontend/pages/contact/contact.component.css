@@ -1,0 +1,37 @@
+.body {
+  height: 67vh;
+}
+
+.body .contact input {
+  outline: none;
+  border-width: 0 0 2px;
+  border-color: #ced4da;
+  background-color: transparent !important;
+  border-radius: 0;
+}
+
+.body .contact input:focus {
+  border-color: green;
+}
+
+.body .contact .uk-input {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.body .contact .btn {
+  border-radius: 1.5rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  font-weight: bold;
+}
+
+.body .contact textarea {
+  -webkit-transition: border-color 2s ease-out;
+  transition: border-color 2s ease-out;
+}
+
+.body .contact textarea:focus {
+  border-color: green;
+}
+/*# sourceMappingURL=contact.component.css.map */

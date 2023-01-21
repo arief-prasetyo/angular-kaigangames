@@ -1,0 +1,55 @@
+.press .press-logo .col-md-6:nth-child(1) {
+  margin-bottom: 1rem;
+}
+
+.press .featured-project .list-group-item {
+  border-style: none;
+}
+
+.press .maps iframe#gmap_canvas {
+  height: 250px;
+}
+
+.press a {
+  text-decoration: none;
+}
+
+.press a:hover {
+  text-decoration: none;
+}
+
+.press p, .press h4 {
+  margin: 0;
+}
+
+.press .developer .title,
+.press .founded-by .title,
+.press .founding-date .title,
+.press .studio .title,
+.press .address .title,
+.press .website .title,
+.press .press-contact .title,
+.press .releases .title {
+  font-weight: bolder;
+}
+
+.press .developer p,
+.press .founded-by p,
+.press .founding-date p,
+.press .studio p,
+.press .address p,
+.press .website p,
+.press .press-contact p,
+.press .releases p {
+  font-weight: 600;
+}
+
+.press .desc p {
+  text-align: left;
+  font-weight: 600;
+}
+
+.press .featured-project .btn-outline-primary {
+  font-weight: bold;
+}
+/*# sourceMappingURL=press.component.css.map */

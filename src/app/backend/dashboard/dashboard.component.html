@@ -1,0 +1,112 @@
+<!--wrapper-->
+<div class="wrapper">
+    <app-header></app-header>
+    <app-navigations></app-navigations>
+    <!--start page wrapper -->
+    <div class="page-wrapper">
+        <div class="page-content">
+            <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3">
+                <div class="col">
+                    <div class="card radius-10">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center">
+                                <div>
+                                    <p class="mb-0">Revenue</p>
+                                    <h4 class="my-1">$4805</h4>
+                                    <p class="mb-0 font-13"><i class='bx bxs-up-arrow align-middle'></i>$34 Since last week</p>
+                                </div>
+                                <div class="widgets-icons ms-auto"><i class='bx bxs-wallet'></i>
+                                </div>
+                            </div>
+                            <div id="chart1"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card radius-10">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center">
+                                <div>
+                                    <p class="mb-0">Total Customers</p>
+                                    <h4 class="my-1">8.4K</h4>
+                                    <p class="mb-0 font-13"><i class='bx bxs-up-arrow align-middle'></i>14% Since last week</p>
+                                </div>
+                                <div class="widgets-icons ms-auto"><i class='bx bxs-group'></i>
+                                </div>
+                            </div>
+                            <div id="chart2"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="card radius-10">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center">
+                                <div>
+                                    <p class="mb-0">Store Visitors</p>
+                                    <h4 class="my-1">59K</h4>
+                                    <p class="mb-0 font-13"><i class='bx bxs-down-arrow align-middle'></i>12.4% Since last week</p>
+                                </div>
+                                <div class="widgets-icons ms-auto"><i class='bx bxs-binoculars'></i>
+                                </div>
+                            </div>
+                            <div id="chart3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <p>kontent: {{ content }}</p>
+            <p>isloggedin: {{isLoggedIn}}</p>
+            <p>username: {{username}}</p>
+            <p>roles: {{roles}}</p>
+        </div>
+    </div>
+    <!--end page wrapper -->
+    <!--start overlay-->
+    <div class="overlay toggle-icon"></div>
+    <!--end overlay-->
+    <!--Start Back To Top Button--> <a href="javaScript:;" class="back-to-top"><i class='bx bxs-up-arrow-alt'></i></a>
+    <!--End Back To Top Button-->
+    <footer class="page-footer">
+        <p class="mb-0">Copyright © 2021. All right reserved.</p>
+    </footer>
+</div>
+<!--end wrapper-->
+<!--start switcher-->
+<div class="switcher-wrapper">
+    <div class="switcher-btn"> <i class='bx bx-cog bx-spin'></i>
+    </div>
+    <div class="switcher-body">
+        <div class="d-flex align-items-center">
+            <h5 class="mb-0 text-uppercase">Theme Customizer</h5>
+            <button type="button" class="btn-close ms-auto close-switcher" aria-label="Close"></button>
+        </div>
+        <hr/>
+        <p class="mb-0">Gaussian Texture</p>
+        <hr>
+        <ul class="switcher">
+            <li id="theme1"></li>
+            <li id="theme2"></li>
+            <li id="theme3"></li>
+            <li id="theme4"></li>
+            <li id="theme5"></li>
+            <li id="theme6"></li>
+        </ul>
+        <hr>
+        <p class="mb-0">Gradient Background</p>
+        <hr>
+        <ul class="switcher">
+            <li id="theme7"></li>
+            <li id="theme8"></li>
+            <li id="theme9"></li>
+            <li id="theme10"></li>
+            <li id="theme11"></li>
+            <li id="theme12"></li>
+            <li id="theme13"></li>
+            <li id="theme14"></li>
+            <li id="theme15"></li>
+          </ul>
+    </div>
+</div>
+<!--end switcher-->
