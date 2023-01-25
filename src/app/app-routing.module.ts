@@ -12,6 +12,19 @@ import { ForgetPasswordComponent } from './frontend/auth/forget-password/forget-
 import { LoginComponent } from './frontend/auth/login/login.component';
 import { RegisterComponent } from './frontend/auth/register/register.component';
 import { DashboardComponent } from './backend/dashboard/dashboard.component';
+import { SliderCarouselComponent } from './backend/slider-carousel/slider-carousel.component';
+import { AboutSliderComponent } from './backend/about-slider/about-slider.component';
+import { AboutTeamImageComponent } from './backend/about-team-image/about-team-image.component';
+import { CareersBenefitPerksComponent } from './backend/careers-benefit-perks/careers-benefit-perks.component';
+import { CareersFeaturedJobComponent } from './backend/careers-featured-job/careers-featured-job.component';
+import { CareersGroupOpenPositionComponent } from './backend/careers-group-open-position/careers-group-open-position.component';
+import { CareersOpenPositionComponent } from './backend/careers-open-position/careers-open-position.component';
+import { CareersLifeAtKaiganComponent } from './backend/careers-life-at-kaigan/careers-life-at-kaigan.component';
+import { ApplicantListComponent } from './backend/applicant-list/applicant-list.component';
+import { GameListComponent } from './backend/game-list/game-list.component';
+import { GameVideoComponent } from './backend/game-video/game-video.component';
+import { GameFaqComponent } from './backend/game-faq/game-faq.component';
+import { ContactUsListComponent } from './backend/contact-us-list/contact-us-list.component';
 
 const routes: Routes = [
   {
@@ -54,7 +67,69 @@ const routes: Routes = [
   {
     path: 'admin/dashboard',
     component: DashboardComponent
-  }
+  },
+  //header
+  {
+    path: 'admin/header/slider-carousel',
+    component: SliderCarouselComponent
+  },
+  //about
+  {
+    path: 'admin/about/',
+    component: AboutComponent
+  },
+  {
+    path: 'admin/about/slider-carousel',
+    component: AboutSliderComponent
+  },
+  {
+    path: 'admin/about/team-image',
+    component: AboutTeamImageComponent
+  },
+  //careers
+  {
+    path: 'admin/careers/perks-and-benefit',
+    component: CareersBenefitPerksComponent
+  },
+  {
+    path: 'admin/careers/featured-job',
+    component: CareersFeaturedJobComponent
+  },
+  {
+    path: 'admin/careers/group-open-position',
+    component: CareersGroupOpenPositionComponent
+  },
+  {
+    path: 'admin/careers/open-position',
+    component: CareersOpenPositionComponent
+  },
+  {
+    path: 'admin/careers/life-at-kaigan',
+    component: CareersLifeAtKaiganComponent
+  },
+  //aplicant list
+  {
+    path: 'admin/job-vacancy/applicant-list',
+    component: ApplicantListComponent
+  },
+  //games
+  {
+    path: 'admin/games/list',
+    component: GameListComponent
+  },
+  {
+    path: 'admin/games/video',
+    component: GameVideoComponent
+  },
+  {
+    path: 'admin/games/faq',
+    component: GameFaqComponent
+  },
+  //contact us
+  {
+    path: 'admin/contact-us',
+    component: ContactUsListComponent
+  },
 ];
 
 @NgModule({
