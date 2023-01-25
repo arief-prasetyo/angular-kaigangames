@@ -71,7 +71,7 @@ const routes: Routes = [
   //header
   {
     path: 'admin/header/slider-carousel',
-    component: SliderCarouselComponent
+    component: SliderCarouselComponent,
   },
   //about
   {
